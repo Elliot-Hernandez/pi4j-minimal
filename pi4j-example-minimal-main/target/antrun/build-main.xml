@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="maven-antrun-" default="main"  >
 <target name="main">
-  <copy flatten="true" todir="/home/elliot/Downloads/pi4j-example-minimal-main/target/distribution" overwrite="true">
+  <copy flatten="true" todir="/home/elliot/Documents/Git/pi4j-minimal/pi4j-example-minimal-main/target/distribution" overwrite="true">
     <fileset includes="*.sh" dir="assets"></fileset>
   </copy>
-  <chmod perm="ugo+rx" includes="**/*.sh" dir="/home/elliot/Downloads/pi4j-example-minimal-main/target/distribution"/>
+  <chmod perm="ugo+rx" includes="**/*.sh" dir="/home/elliot/Documents/Git/pi4j-minimal/pi4j-example-minimal-main/target/distribution"/>
 </target>
 </project>
